@@ -5,7 +5,6 @@ descoberta_atual = "*********"
 num_letras = len(palavra_secreta)
 contador_tentativas = 0
 print(f'Jogo da adivinhação -- A palavra possui {num_letras} letras. Boa sorte!')
-
 while True:
     letra = input("Digite uma letra: ")
     if (len(letra) == 1) and letra.isalpha:
